@@ -201,8 +201,8 @@ void decryptByPlayfairCipher(string &s, string &key)
 }
 
 int main(){
-    string s="instruments";
-    string key="Monarchy";
+    string s="mitul";
+    string key="vardhan";
     encryptByPlayfairCipher(s,key);
     cout<<s<<endl;
     return 0;
